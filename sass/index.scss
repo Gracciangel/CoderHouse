@@ -1,0 +1,44 @@
+#container{
+    margin-top: 1rem ; 
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: first baseline;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            margin-left: 3rem;
+        }
+}
+.head{
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    
+     h1{
+    text-align: center;
+    }
+
+}
+.menu{
+    display: flex ;
+    flex-direction: column;
+    margin-top: 5%;
+    .menu__link{
+        margin-bottom: 3rem;
+        color: white ;
+        text-decoration: none; 
+        font-size:larger ;
+    }
+}
+.sub-title{
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 2rem;
+    img{
+        width: 30px;
+        height: 30px; 
+        margin-top: 1rem;
+    }
+    
+}

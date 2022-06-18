@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.video{
+    width: 100%;
+    background-size: cover;
+    opacity: 80%;
+}
