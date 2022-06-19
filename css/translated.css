@@ -1,0 +1,115 @@
+body {
+  background-color: rgba(0, 0, 0, 0.603);
+  width: 1200px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/*Colorimetria*/
+#container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: first baseline; }
+  #container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left: 3rem; }
+
+/* Menu*/
+.offcanvas-title {
+  margin: 1rem 0 0 35%; }
+
+.btn-primary {
+  margin-left: 5%; }
+
+.btn-primary:hover {
+  background-color: yellow;
+  color: black; }
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.459);
+  align-items: center; }
+  .offcanvas-body .legend-nav {
+    text-align: center;
+    max-width: 100%;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background-color: rgba(255, 255, 0, 0.493); }
+  .offcanvas-body .menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%; }
+    .offcanvas-body .menu .menu__item {
+      display: flex;
+      align-items: center;
+      list-style-type: none; }
+      .offcanvas-body .menu .menu__item .menu__link {
+        margin-bottom: 3rem;
+        color: white;
+        text-decoration: none;
+        font-size: larger; }
+      .offcanvas-body .menu .menu__item .menu__link:hover {
+        color: yellow; }
+
+* p:not(.legend-nav) {
+  color: white; }
+
+#colorimetria {
+  margin-top: 2rem;
+  align-items: center;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas: "div__p img__img img__img" "div__p img__img1 img__img1" "div__p img__img2 img__img2"; }
+  #colorimetria img {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    height: 400px;
+    opacity: 90%; }
+  #colorimetria .images .img {
+    transition: 1s; }
+  #colorimetria .images .img1 {
+    transition: 1s; }
+  #colorimetria .images .img:hover {
+    transform: scale(1.1); }
+  #colorimetria .images .img1:hover {
+    transform: scale(1.1); }
+  #colorimetria .img__img {
+    transition: .8s; }
+  #colorimetria .img__img1 {
+    transition: .8s; }
+  #colorimetria .img__img2 {
+    transition: .8s; }
+  #colorimetria .img__img:hover {
+    transform: scale(1.1); }
+  #colorimetria .img__img1:hover {
+    transform: scale(1.1); }
+  #colorimetria .img__img2:hover {
+    transform: scale(1.1); }
+
+footer {
+  margin-top: 10;
+  font-size: small;
+  color: yellow;
+  bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 1.6rem;
+  padding: 3rem 0;
+  background-color: rgba(0, 0, 0, 0.562); }
+  footer a {
+    display: flex;
+    text-decoration: none;
+    color: whitesmoke;
+    justify-items: center;
+    gap: 1rem; }
+    footer a :hover {
+      color: black; }
+  footer .icon {
+    width: 26px;
+    height: 26px; }
