@@ -1,10 +1,90 @@
 *{
-    margin:0;
+    padding: 0%;
+    margin: 0;
     box-sizing: border-box;
+}
+html{
+    background-color: black;
+    font-size: 62.5%;
 }
 
 .video{
-    width: 100%;
-    background-size: cover;
-    opacity: 80%;
+    position: absolute;
+    background-size: cover;   
+    width:100%;
+}
+.menu-body{
+    margin: 1rem auto;
+}
+.btn{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 49%;
+    margin-right: 38%; 
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white; 
+    border: none;
+    padding: 2rem 3rem;
+    font-size: medium;
+    transition: 2s;
+}
+.offcanvas-backdrop.show {
+    opacity: 0;
+}
+.offcanvas.offcanvas-top {
+    top: 0;
+    right: 0;
+    left: -36px;
+    height: var(--bs-offcanvas-height);
+    max-height: 100%;
+    border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
+    transform: translateY(-100%);
+}
+.btn:hover{
+    background-color: rgba(255, 255, 0, 0.5);
+    transform: scale(1.3);
+    border: none ;
+}
+
+.offcanvas-body ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+    border-bottom: none;
+}
+.btn-close{
+ background-color: white;
+}
+.show{
+    margin-top: 25%;
+    margin-bottom: 50%;
+    margin-left: 45%;
+    margin-right: 39%;
+  background-color: rgba(0, 0, 0, 0);
+    color: white;
+    display: block;
+    gap: 1.5rem;
+}
+.ofccanvas.offcanvas-top{
+    right: -6px;
+    left:-36px;
+}
+.menu__item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+}
+.menu__link{
+    text-decoration: none;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke; 
+    margin-bottom: 1.rem;
+}
+.menu__link:hover{
+    color: black; 
+    background-color: yellow;
+    transition: 1s;
+    transform: scale(1.4);
 }

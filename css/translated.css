@@ -51,8 +51,8 @@ body {
         color: white;
         text-decoration: none;
         font-size: larger; }
-      .offcanvas-body .menu .menu__item .menu__link:hover {
-        color: yellow; }
+        .offcanvas-body .menu .menu__item .menu__link:hover {
+          color: yellow; }
 
 * p:not(.legend-nav) {
   color: white; }
@@ -108,7 +108,7 @@ footer {
     color: whitesmoke;
     justify-items: center;
     gap: 1rem; }
-    footer a :hover {
+    footer a:hover {
       color: black; }
   footer .icon {
     width: 26px;

@@ -56,10 +56,10 @@ color: black ;
                  color: white ;
                  text-decoration: none; 
                  font-size:larger ;
+                 &:hover{
+                       color: yellow; 
+                    }
                 }
-                .menu__link:hover{
-                      color: yellow; 
-                   }
          }
      }
 }
@@ -69,14 +69,18 @@ color: black ;
 #colorimetria{
     margin-top: 2rem;
     
-        align-items: center;
-        display: grid;
-        gap: 1rem;
-        grid-template-areas: 
-        "div__p img__img img__img"
-        "div__p img__img1 img__img1"
-        "div__p img__img2 img__img2" ;
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    "div__p img__img img__img"
+    "div__p img__img1 img__img1"
+    "div__p img__img2 img__img2" ;
     
+    h4{
+    
+        @import "vars/colors" ;
+        }
     img{
         width: 100%;
         margin-top: 2rem ;
@@ -136,7 +140,7 @@ footer{
        color: whitesmoke;
        justify-items: center;
        gap: 1rem;
-    :hover{
+    &:hover{
            color: black;
        }
    }
