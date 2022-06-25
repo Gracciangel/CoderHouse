@@ -6,71 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/style.css">
+   <link rel="stylesheet" href="../css/translated.css">
 </head>
 <body>
-    <div class="head">
-        <h1>JAV </h1>
+      <header>
+        <div class="head">
+            <h1>Asesoria </h1>
+     </header>
+
+     <!--Menu-offcanvas-->
+
+    <button class="btn btn-primary btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">INICIO</button>
+
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Menu de Inicio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">MENU
-      </button>
-      
-      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">JAV</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <p class="legend-nav">Viví una experiencia de transformacion.</p>
-        <div class="offcanvas-body">
-          <main >
-            <ul class="menu">
-                <li class="menu__item">
-                    <a class="menu__link" href="../index.html">Inicio</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="colorimetria.html">
-                            Colorimetria
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="informacion.html">
-                            Informacion
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="asesoria.html">
-                            Asesoria
-                    </a>
-                </li>
-             
-            </ul>
-          </main>
-        </div>
+      <div class="offcanvas-body small">
+        
+    <nav>
+      <ul class="menu">
+        <li class="menu__item">
+            <a class="menu__link" href="../index.html">
+                    Home
+            </a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="asesoria.html">
+                 Asesoria
+            </a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="colorimetria.html">
+                    Colorimetria
+            </a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="informacion.html">
+                  Informacion
+            </a>
+        </li>
+     
+    </ul>
+     </nav>
       </div>
-</section>
-<div class="sub-title">
-  <h4>Contactanos</h4>
-  <img src="../IMG/Icon/contactos.png" alt="" class="animation">
+    </div>
+<div class="formulario">
+  <div class="sub-title">
+    <h2>Contactanos</h2>
+  </div>
+  <img src="../IMG/Icon/contactos.png" alt="icono de telefono" class="animation">
+  <form>
+    <input class="contact" type="text" name="Email" id="email" placeholder="ingrese e-mail">
+    <textarea class="contact" name="Mensaje" id="mensaje" cols="30" rows="5" placeholder="escriba aqui el mensaje" ></textarea>
+    <input class="submit" type="submit" value="Enviar">
+  
+  </form>
 </div>
-<main class="container form" >
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Direccion de Email </label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Ingrese Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="button-main"  >
-        <button type="submit" class="btn btn-success" id="button-main">Enviar</button>
-      </div>
-</main>
-    <footer id="fot">
-        Todos los derechos resevados 2022 
-        <a href="https://whatsapp.com" class="redes">Whatsapp <img class="icon" src="../IMG/Icon/what.png" alt=""></a>
-        <a href="https://facebook.com" class="redes">Facebook <img class="icon" src="../IMG/Icon/facebook.png" alt=""></a>
-        <a href="https://instagram.com" class="redes">Instagram <img class="icon" src="../IMG/Icon/insta.png" alt=""></a>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<footer id="fot">
+  Todos los derechos resevados 2022 
+  <a href="https://whatsapp.com" class="redes">Whatsapp <img class="icon" src="../IMG/Icon/what.png" alt="logo de whatsapp"></a>
+  <a href="https://facebook.com" class="redes">Facebook <img class="icon" src="../IMG/Icon/facebook.png" alt="logo de facebook"></a>
+  <a href="https://instagram.com" class="redes">Instagram <img class="icon" src="../IMG/Icon/insta.png" alt="logo de instagram"></a>
+</footer>
+  <!--script-Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

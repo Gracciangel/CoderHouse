@@ -1,0 +1,42 @@
+#art{
+position: relative;
+    .art__parrafo{
+        color: $secundary;
+        font-size: medium;
+        font-style: italic;
+       margin: 3rem auto;
+       margin-left: 0%;
+       margin-right: 40%;
+       position: relative;
+    }
+    picture{
+        img{
+            background:rgba(255, 255, 255, 0.192) ;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.692);
+            backdrop-filter: blur( 19.5px );
+            -webkit-backdrop-filter: blur( 40.5px );
+            border-radius: 10px;
+            width: 100%;
+           
+        }
+    }
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+    .aside__parrafo{
+            color: $secundary ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            font-size: larger;
+            background: rgba(241, 240, 240, 0);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.692);
+            backdrop-filter: blur( 19.5px );
+            -webkit-backdrop-filter: blur( 40.5px );
+            border-radius: 32px;
+            padding: 2rem 9rem;
+    }
+}

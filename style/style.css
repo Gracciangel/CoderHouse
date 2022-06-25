@@ -1,6 +1,12 @@
+
+    /* Normalize */
+
 *{
     margin: 0%;
     box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
 }
 * p:not(.legend-nav){
     color: white ;
@@ -103,9 +109,11 @@ body{
 #colorimetria{
     margin-top: 2rem;
 }
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 
 footer{
-    
     bottom: 0%;
     display: flex;
     flex-direction: column;
@@ -160,23 +168,7 @@ footer{
             /*footer*/
 
 
-footer{
-    margin-top: 10 ;
-    font-size: small;
-    color: yellow ;
-}
-footer a {
-    display: flex;
-    text-decoration: none;
-    color: whitesmoke;
-    justify-items: center;
-    gap: 1rem;
-}
 
-.icon{
-    width: 26px;
-    height: 26px;
-}
 
 /* Asesoria*/
 

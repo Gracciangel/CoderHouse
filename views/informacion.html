@@ -6,72 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../css/translated.css">
 </head>
 <body>
-    <header id="container" >
-        <h1 class="title">
-            Informacion
-        </h1>
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">MENU
-        </button>
+    <header>
+        <div class="head">
+            <h1>Informacion</h1>
+     </header>
+
+     <!--Menu-offcanvas-->
+
+    <button class="btn btn-primary btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">INICIO</button>
+
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Menu de Inicio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small">
         
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">JAV</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <p class="legend-nav">Viví una experiencia de transformacion.</p>
-          <div class="offcanvas-body">
-            <main >
-              <ul class="menu">
-                  <li class="menu__item">
-                      <a class="menu__link" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="menu__item">
-                      <a class="menu__link" href="colorimetria.html">
-                              Colorimetria
-                      </a>
-                  </li>
-                  <li class="menu__item">
-                      <a class="menu__link" href="asesoria.html">
-                              Asesoria
-                      </a>
-                  </li>
-                  <li class="menu__item">
-                      <a class="menu__link" href="contacto.html">
-                              Contacto
-                      </a>
-                  </li>
-               
-              </ul>
-            </main>
-          </div>
-        </div>
-    </header>
-</section>
+    <nav>
+      <ul class="menu">
+        <li class="menu__item">
+            <a class="menu__link" href="../index.html">
+                    Home
+            </a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="asesoria.html">
+                 Asesoria
+            </a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="colorimetria.html">
+                    Colorimetria
+            </a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="contacto.html">
+                  Contacto
+            </a>
+        </li>
+     
+    </ul>
+     </nav>
+      </div>
+    </div>
     <main id="info">
         <h2 class="subtitulo">
             Informacion Sobre la asesoria Personal
         </h2>
+       <article class="info">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ducimus debitis dolorem excepturi et sapiente error maxime quo aspernatur repudiandae dolorum libero facilis reiciendis nisi molestiae tempora exercitationem, est eaque.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, praesentium nemo, delectus architecto quasi in optio dolore sint, natus facilis nulla error eius? Id corporis possimus tenetur, illum sint eaque!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima itaque ipsum aspernatur fugiat earum modi accusamus odio exercitationem cupiditate recusandae sequi unde reiciendis, expedita quam facere eum laborum illo quaerat.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat recusandae consectetur mollitia dolor, est iusto dolores facilis nisi similique delectus sequi veritatis repellat autem vitae labore porro, rem sed aut?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ullam in doloremque nobis corrupti. Quod, aut nisi minima aperiam impedit voluptatem accusamus quam architecto quibusdam sed, similique suscipit beatae omnis!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae eos quis adipisci delectus ab repellat sit numquam assumenda dolore modi? Quidem rerum consectetur, ad provident aut omnis quisquam architecto dolore.
+            ¿Qué es la asesoría personal?
+            Resultado de imagen para asesoria personal
+            Las asesorías personales son para quienes quieren hacerse cargo personalmente de su aspecto personal pero necesitan algo de ayuda en el proceso. El objetivo de una Asesoría Personal es guiarte y capacitarte para que tengas las mejores herramientas para que tu imagen pueda no solo cambiar, si no <span class="definirte">
+                <b>DEFINIRTE</b>. 
+            </span>
+           <h3> ¿Qué incluye una asesoría de imagen?</h3>
+        <p>
+    La asesoría de imagen comprende la completa remodelación de la presencia de un sujeto, mejorando las actitudes corporales, el maquillaje (si se requiere), la fotografía propagandística, el protocolo, la propaganda involucrada, el peinado, la ornamentación, el vestuario, etc.
         </p>
-        <picture class="img__picture">
-            <img src="../IMG/paleta.jpg" alt="">
-        </picture>
+    <h3>Pasos para llevar a cabo el asesoramiento </h3>
+    <p>
+        <ol class="lista">
+            <li class="lista__item">Definir el estilo personal</li>
+            <li class="lista__item">Realizar un diagnostico especializado</li>
+            <li class="lista__item">Estudio del cuerpo</li>
+            <li class="lista__item">Estudio del Rostro</li>
+            <li class="lista__item">Propuesta de producción</li>
+            <li class="lista__item">Estudio de colorimetria</li>
+         </ol>
+    </p>
+         <img src="../IMG/paleta.jpg" alt="imagen de paleta de colores">
+        </p> 
+    </article>
     </main>
-    <footer>
+    <footer id="fot">
         Todos los derechos resevados 2022 
-        <a href="https://whatsapp.com" class="redes">Whatsapp <img class="icon" src="../IMG/Icon/what.png" alt=""></a>
-        <a href="https://facebook.com" class="redes">Facebook <img class="icon" src="../IMG/Icon/facebook.png" alt=""></a>
-        <a href="https://instagram.com" class="redes">Instagram <img class="icon" src="../IMG/Icon/insta.png" alt=""></a>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <a href="https://whatsapp.com" class="redes">Whatsapp <img class="icon" src="../IMG/Icon/what.png" alt="logo de whatsapp"></a>
+        <a href="https://facebook.com" class="redes">Facebook <img class="icon" src="../IMG/Icon/facebook.png" alt="logo de facebook"></a>
+        <a href="https://instagram.com" class="redes">Instagram <img class="icon" src="../IMG/Icon/insta.png" alt="logo de instagram"></a>
+      </footer>
+        <!--script-Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

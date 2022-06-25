@@ -1,0 +1,18 @@
+            /*Animations*/
+
+
+            @keyframes contact{
+                0%{
+                 background-color: black;
+                 color: yellow;
+                }
+                50%{
+                    background-color: yellow;
+                    color: black ; 
+                }
+                100%{
+                    background-color: black;
+                    color: yellow ;
+                }
+             
+            }

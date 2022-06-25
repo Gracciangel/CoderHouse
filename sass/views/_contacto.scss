@@ -1,0 +1,86 @@
+                /*Formulario*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    .sub-title{
+        display: flex;
+        justify-content: center;
+        h2{
+            text-align: center;
+            font-weight: 800;
+            font-size: x-large;
+            background: rgba( 221, 255, 0, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+padding: 2rem 2rem;
+animation-name: contact;
+animation-duration: 10s;
+animation-iteration-count: infinite ;
+
+           
+        }
+    }
+    img{
+        margin: 2rem 47% ;
+        width:60px;
+        height: 60px;
+    }
+    input{
+        color: black ;
+    }
+    form{
+       @include flex (column , 2rem , center , none) ;
+        margin: 1rem 30%;
+
+        .contact{
+            transition: .5s;
+            border: none ;
+            background-color: $back;
+            background: rgba( 0, 0, 0, 0.65 );          
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 20px );
+            -webkit-backdrop-filter: blur( 20px );
+            border: none;
+            font-style:$font-principal;
+            font-size: larger;
+            &:hover{
+                background: rgba( 218, 213, 81, 0.4 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 20px );
+            -webkit-backdrop-filter: blur( 20px );
+            border: none;
+            }
+             
+            &:focus{
+                background: rgba( 218, 213, 81, 0.4 );
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                backdrop-filter: blur( 20px );
+                -webkit-backdrop-filter: blur( 20px );
+                border: none;
+                }
+            
+        }
+        .submit{
+            
+            margin-bottom: 2rem;
+            transition: .2s;
+            border: none;
+            background-color: yellow;
+            color: black  ;
+            border-radius: 40px;
+            padding: .5rem -.5rem;
+            font-size: medium;
+            &:hover{
+                background-color:  rgba( 218, 213, 81, 0.4 );
+                color: black ; 
+                transform: scale(1.1);
+                font-weight: 500;
+                border: none;
+            }
+            
+        }
+    }
+}

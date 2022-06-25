@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style/style.css">
+<link rel="stylesheet" href="./css/translated.css">
   <title>Document</title>
 </head>
 <body>
@@ -14,72 +14,83 @@
     <h1>JAV </h1>
 </div>
 </header>
-<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">MENU
-</button>
-<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+<button class="btn btn-primary btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">INICIO</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">JAV</h5>
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Menu de Inicio</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <p class="legend-nav">Viví una experiencia de transformacion.</p>
-  <div class="offcanvas-body">
-    <main >
-      <ul class="menu">
-          <li class="menu__item">
-              <a class="menu__link" href="./views/asesoria.html">
-                      Asesoria
-              </a>
-          </li>
-          <li class="menu__item">
-              <a class="menu__link" href="./views/colorimetria.html">
-                      Colorimetria
-              </a>
-          </li>
-          <li class="menu__item">
-              <a class="menu__link" href="./views/informacion.html">
-                      Informacion
-              </a>
-          </li>
-          <li class="menu__item">
-              <a class="menu__link" href="./views/contacto.html">
-                      Contacto
-              </a>
-          </li>
-       
-      </ul>
-    </main>
+  <div class="offcanvas-body small">
+    
+<nav>
+  <ul class="menu">
+    <li class="menu__item">
+        <a class="menu__link" href="./views/asesoria.html">
+                Asesoria
+        </a>
+    </li>
+    <li class="menu__item">
+        <a class="menu__link" href="./views/colorimetria.html">
+                Colorimetria
+        </a>
+    </li>
+    <li class="menu__item">
+        <a class="menu__link" href="./views/informacion.html">
+                Informacion
+        </a>
+    </li>
+    <li class="menu__item">
+        <a class="menu__link" href="./views/contacto.html">
+                Contacto
+        </a>
+    </li>
+ 
+</ul>
+ </nav>
   </div>
 </div>
-<div id="img-bootstrap">
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./IMG/accesorio2.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./IMG/accesorios_men1.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./IMG/accesorios_men2.jpg" class="d-block w-100" alt="...">
-      </div>
+<div class="img-card shadow p-3 mb-5 bg-body rounded">
+  <div class="card" style="width: 18rem;">
+    <img src="./IMG/accesorio2.jpg" class="card-img-top" alt="mujer con fotografia en la mano">
+    <div class="card-body">
+      <h5 class="card-title">Cambia tu imagen</h5>
+      <a href="#tx1" class="btn btn-primary">Go</a>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./IMG/accesorios_men1.jpg" class="card-img-top" alt="hombre vestido de negro con sombrero">
+    <div class="card-body">
+      <h5 class="card-title">Elegancia</h5>
+      <a href="#tx2" class="btn btn-primary">Go</a>
+    </div>
+    
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./IMG/accesorios_men2.jpg" class="card-img-top" alt="dos mujeres saludando con la torre eifel de fondo">
+    <div class="card-body">
+      <h5 class="card-title">Moda & Diseño</h5>
+      <a href="#tx3" class="btn btn-primary">Go</a>
+    </div>
   </div>
 </div>
-
+<article class="textos">
+ <img class="comillas" src="./IMG/Icon/commilas-aper.png" alt="">
+ <h3 id="tx1">Cambia tu imagen </h3>
+  <p id="card-text">Descubrí una imagen nueva frente al espejo. Una imagen que te haga sentir esa seguridad de saber que estás mostrándote tal como sos pero en tu mejor versión. Una imagen que resalte tus puntos fuertes y sepa desfocalizar “eso” que tal vez no te favorece... sin pensar tanto en cirugías! Porque no se trata de copiar ni de intentar ser otra persona. El objetivo es aprender a redescubrirse y explotar al 100% el estilo propio.</p>
+  <h3 id="tx2">Elegancia</h3>
+  <p id="card-text1">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ab reiciendis, amet nesciunt consectetur quae at dolorem aut ad architecto minima quod voluptatum tempora eligendi optio rem in, neque adipisci.</p>
+  <h3 id="tx3">Moda & Diseño</h3>
+  <p id="card-text2">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tenetur adipisci eum inventore necessitatibus et culpa corrupti hic aliquid voluptatum quae quo voluptates id consectetur nisi dignissimos, voluptatem reiciendis velit?</p>
+  <img src="./IMG/Icon/comillas-cierr.png" alt="" class="comillas1">
+</article>
 <footer id="fot">
   Todos los derechos resevados 2022 
-  <a href="https://whatsapp.com" class="redes">Whatsapp <img class="icon" src="./IMG/Icon/what.png" alt=""></a>
-  <a href="https://facebook.com" class="redes">Facebook <img class="icon" src="./IMG/Icon/facebook.png" alt=""></a>
-  <a href="https://instagram.com" class="redes">Instagram <img class="icon" src="./IMG/Icon/insta.png" alt=""></a>
+  <a href="https://whatsapp.com" class="redes">Whatsapp <img class="icon" src="./IMG/Icon/what.png" alt="logo de whatsapp"></a>
+  <a href="https://facebook.com" class="redes">Facebook <img class="icon" src="./IMG/Icon/facebook.png" alt="logo de facebook"></a>
+  <a href="https://instagram.com" class="redes">Instagram <img class="icon" src="./IMG/Icon/insta.png" alt="logo de instagram"></a>
 </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

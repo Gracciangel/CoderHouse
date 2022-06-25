@@ -1,0 +1,8 @@
+/* variables */
+@mixin flex ($col, $esp , $jc , $alig){
+    display: flex;
+    flex-direction: $col;
+    gap: $esp;
+    justify-content: $jc;
+    align-items: $alig;
+}

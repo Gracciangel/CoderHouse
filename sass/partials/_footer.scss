@@ -1,0 +1,28 @@
+#fot{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: small;
+    color: yellow ;
+    display: flex;
+    flex-direction: column;
+    gap: $size-fot;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+ a {
+        text-decoration: none;
+        color:whitesmoke;
+        justify-items: center;
+        gap: 1rem;
+        &:hover{
+            color: yellow; 
+        }
+    }
+    .icon{
+        width: 26px;
+        height: 26px;
+        transition: .5s;
+        &:hover{
+            transform: scale(1.3);
+        }
+    }
+}
