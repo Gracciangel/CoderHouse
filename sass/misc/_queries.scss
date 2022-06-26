@@ -1,0 +1,129 @@
+
+            /*queries*/
+            @media (max-width: 480px){
+                /*header*/
+                header{
+                    display: inline-block;
+                    margin: 3rem;
+                }
+                /*menu*/
+                .navbar-espand-md{
+                    width: 80px;
+                    margin-left: 2rem;
+                
+                }
+                .menu-item .menu-link{
+                    font-size: smaller;
+                    color: black ; 
+                    transition: .8s;
+                    margin: 0.5rem;
+                }
+                /*home*/
+                body .shadow{
+                    display: flex;
+                   flex-direction: column;
+                    align-items: center;
+                    margin: 0 40% ;
+                    .card{
+                        margin-bottom: 1.5rem;
+                    }
+                }
+                body .textos{
+                    margin: 0 33%;
+                    #card-text{
+                        font-size: small;
+                    }
+                    #card-text1{
+                        font-size: small;
+                    }
+                    #card-text2{
+                        font-size: small;
+                    }
+                }
+                /*asesoria*/
+                body #art picture{
+                    margin-right:65%;
+                    img{
+                        max-width: 23%;
+                        margin: 3rem;
+                    }
+                }
+                body .article{
+                    max-width: 50%;
+                    .art__parrafo{
+                        margin-left: 4%;
+                    }
+                }
+                body .aside{
+                    margin-right: 71%;
+                    margin-left: 1rem;
+                    .aside__parrafo{
+                        padding: 2rem 4rem;
+                    }
+                }
+                /*colorimetria*/
+                body .grid{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 50%;
+                    img{
+                        width: 300px;
+                        height: 300px;
+            
+                    }
+                
+                    .art__parrafo1{
+                        margin:1rem;
+                        margin-right: 56%;
+                    }
+                    .art__parrafo2{
+                        margin:1rem;
+                        margin-right: 56%;
+                    }
+                }
+                    /*informacion*/
+                    body{
+                        #info{
+                            .subtitulo{
+                                margin-right:35%;
+                            }
+                            .info{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin: 1rem 10%;
+                                margin-right: 45% ;
+                                .lista{
+                                    margin: 1rem 0;
+                                }
+                                img{
+                                    border-radius: 576px;
+                                    margin-left: 40%;
+                                    width: 300px;
+                                    height: 300px;
+                                }
+                            }
+                        }
+                    }
+                    /*contacto*/
+                    body{
+                        .formulario{
+                            margin-right: 54%;
+                            margin-left: -8%;
+                        }
+                    }
+                  
+                    /*footer*/
+                body #fot{
+                    display: flex;
+                    align-items: flex-start;
+                    span{
+                        margin-left: 3rem;
+                    }
+                    a{
+                        margin-left: 3rem;
+                    }
+                }
+            }
+             
+            

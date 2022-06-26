@@ -19,6 +19,95 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 /* variables */
+/*queries*/
+@media (max-width: 480px) {
+  /*header*/
+  header {
+    display: inline-block;
+    margin: 3rem; }
+  /*menu*/
+  .navbar-espand-md {
+    width: 80px;
+    margin-left: 2rem; }
+  .menu-item .menu-link {
+    font-size: smaller;
+    color: black;
+    transition: .8s;
+    margin: 0.5rem; }
+  /*home*/
+  body .shadow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40%; }
+    body .shadow .card {
+      margin-bottom: 1.5rem; }
+  body .textos {
+    margin: 0 33%; }
+    body .textos #card-text {
+      font-size: small; }
+    body .textos #card-text1 {
+      font-size: small; }
+    body .textos #card-text2 {
+      font-size: small; }
+  /*asesoria*/
+  body #art picture {
+    margin-right: 65%; }
+    body #art picture img {
+      max-width: 23%;
+      margin: 3rem; }
+  body .article {
+    max-width: 50%; }
+    body .article .art__parrafo {
+      margin-left: 4%; }
+  body .aside {
+    margin-right: 71%;
+    margin-left: 1rem; }
+    body .aside .aside__parrafo {
+      padding: 2rem 4rem; }
+  /*colorimetria*/
+  body .grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%; }
+    body .grid img {
+      width: 300px;
+      height: 300px; }
+    body .grid .art__parrafo1 {
+      margin: 1rem;
+      margin-right: 56%; }
+    body .grid .art__parrafo2 {
+      margin: 1rem;
+      margin-right: 56%; }
+  /*informacion*/
+  body #info .subtitulo {
+    margin-right: 35%; }
+  body #info .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 10%;
+    margin-right: 45%; }
+    body #info .info .lista {
+      margin: 1rem 0; }
+    body #info .info img {
+      border-radius: 576px;
+      margin-left: 40%;
+      width: 300px;
+      height: 300px; }
+  /*contacto*/
+  body .formulario {
+    margin-right: 54%;
+    margin-left: -8%; }
+  /*footer*/
+  body #fot {
+    display: flex;
+    align-items: flex-start; }
+    body #fot span {
+      margin-left: 3rem; }
+    body #fot a {
+      margin-left: 3rem; } }
+
 /* Partials */
 /*header*/
 .head {
@@ -57,79 +146,21 @@ body {
       transform: scale(1.3); }
 
 /*menu*/
-.btn-primary:not(.btn-menu) {
-  opacity: 50%; }
-
-.btn {
+/*menu*/
+.p-2 {
+  font-size: medium;
   color: black;
-  background-color: yellow;
-  border: none;
-  transition: .5s;
-  opacity: 60%; }
-  .btn:hover {
+  transition: .8s;
+  margin: .5rem;
+  padding: .5rem; }
+  .p-2:hover {
     color: yellow;
     background-color: black;
-    opacity: 1%; }
-
-.btn-menu {
-  margin: 2rem 0;
-  padding: 1rem 2rem;
-  position: fixed;
-  z-index: 3; }
-
-#offcanvasWithBothOptionsLabel {
-  margin-left: 40%;
-  font-size: medium; }
-
-.legend-nav {
-  margin-top: 1.4rem;
-  padding-left: 17%;
-  transition: 1s;
-  font-size: small; }
-
-.offcanvas-body {
-  background-color: rgba(0, 0, 0, 0.445); }
-  .offcanvas-body .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 7%;
-    gap: 10rem;
-    margin-top: 5rem; }
-  .offcanvas-body nav {
-    display: flex;
-    flex-direction: column;
-    gap: none;
-    justify-content: none;
-    align-items: center; }
-    .offcanvas-body nav .menu__item {
-      list-style-type: none; }
-    .offcanvas-body nav .menu__link {
-      text-decoration: none;
-      font-style: italic;
-      font-size: x-large;
-      margin: 20% -4%;
-      color: black;
-      padding: 1rem;
-      transition: .4s; }
-      .offcanvas-body nav .menu__link:hover {
-        color: yellow; }
-  .offcanvas-body .offcanvas-header #offcanvasBottomLabel {
-    text-align: center;
-    font-style: italic;
-    font-size: small; }
+    border-radius: 30px; }
 
 /* Views */
 #art {
   position: relative; }
-  #art .art__parrafo {
-    color: black;
-    font-size: medium;
-    font-style: italic;
-    margin: 3rem auto;
-    margin-left: 0%;
-    margin-right: 40%;
-    position: relative; }
   #art picture img {
     background: rgba(255, 255, 255, 0.192);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.692);
@@ -137,6 +168,15 @@ body {
     -webkit-backdrop-filter: blur(40.5px);
     border-radius: 10px;
     width: 100%; }
+
+.article .art__parrafo {
+  color: black;
+  font-size: medium;
+  font-style: italic;
+  margin: 3rem auto;
+  margin-left: 0%;
+  margin-right: 40%;
+  position: relative; }
 
 .aside {
   display: flex;
@@ -310,7 +350,7 @@ body {
       color: rebeccapurple; }
   #info .info img {
     margin-left: 18%;
-    margin-top: 2rem;
+    margin: 3.5rem auto;
     width: 800px;
     height: 600px;
     background: rgba(255, 255, 255, 0.25);

@@ -1,14 +1,6 @@
 #art{
 position: relative;
-    .art__parrafo{
-        color: $secundary;
-        font-size: medium;
-        font-style: italic;
-       margin: 3rem auto;
-       margin-left: 0%;
-       margin-right: 40%;
-       position: relative;
-    }
+    
     picture{
         img{
             background:rgba(255, 255, 255, 0.192) ;
@@ -19,6 +11,17 @@ position: relative;
             width: 100%;
            
         }
+    }
+}
+.article{
+    .art__parrafo{
+        color: $secundary;
+        font-size: medium;
+        font-style: italic;
+       margin: 3rem auto;
+       margin-left: 0%;
+       margin-right: 40%;
+       position: relative;
     }
 }
 .aside{

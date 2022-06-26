@@ -15,42 +15,31 @@
      </header>
 
      <!--Menu-offcanvas-->
+    <div class="navbar navbar-espand-md">
+        <div class="contaner-fluid">
+            <!--boton del menu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-    <button class="btn btn-primary btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">INICIO</button>
-
-    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Menu de Inicio</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body small">
-        
-    <nav>
-      <ul class="menu">
-        <li class="menu__item">
-            <a class="menu__link" href="../index.html">
-                    Home
-            </a>
-        </li>
-        <li class="menu__item">
-            <a class="menu__link" href="asesoria.html">
-                 Asesoria
-            </a>
-        </li>
-        <li class="menu__item">
-            <a class="menu__link" href="colorimetria.html">
-                    Colorimetria
-            </a>
-        </li>
-        <li class="menu__item">
-            <a class="menu__link" href="contacto.html">
-                  Contacto
-            </a>
-        </li>
-     
-    </ul>
-     </nav>
-      </div>
+              <!--elementos del menu-->
+              <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav es-auto flex-row flex-wrap">
+                    <li class="nav-item">
+                        <a class="nav-link p-2" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link p-2"href="asesoria.html">Asesoria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2" href="colorimetria.html">Colorimetria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+        </div>
     </div>
     <main id="info">
         <h2 class="subtitulo">
@@ -79,7 +68,7 @@
          </ol>
     </p>
          <img src="../IMG/paleta.jpg" alt="imagen de paleta de colores">
-        </p> 
+
     </article>
     </main>
     <footer id="fot">
