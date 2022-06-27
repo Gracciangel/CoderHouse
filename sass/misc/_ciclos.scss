@@ -1,0 +1,14 @@
+        /*ciclos*/
+
+        @for $i from 1 through 5 {
+            .pad-#{$i}{
+                padding: 1rem * $i;
+            }
+        }
+        
+        @for $i from 1 through 10 {
+            .marg-#{$i}{
+                margin: 1rem * $i ;  
+            }
+        }
+        

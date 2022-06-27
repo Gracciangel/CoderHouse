@@ -1,7 +1,60 @@
+@charset "UTF-8";
 /* Misc */
 /* Fonts */
 /* Colors */
 /* Size */
+/*mapas*/
+.blue {
+  background-color: blue; }
+
+.red {
+  background-color: red; }
+
+.white {
+  background-color: white; }
+
+.green {
+  background-color: green; }
+
+.cur {
+  font-style: italic; }
+
+.sem {
+  font-style: oblique; }
+
+.norm {
+  font-style: normal; }
+
+.sm {
+  gap: 2rem; }
+
+.lg {
+  gap: 3rem; }
+
+.xl {
+  gap: 4rem; }
+
+.xxl {
+  gap: 5rem; }
+
+.light {
+  background-color: white; }
+
+.dark {
+  background-color: black; }
+
+.live {
+  background-color: red; }
+
+.after {
+  background-color: green; }
+
+/*Extend´s*/
+.estilosh3, .textos h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: overline 2px;
+  color: black; }
+
 * {
   margin: 0%;
   box-sizing: border-box; }
@@ -19,8 +72,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 /* variables */
-/*queries*/
-@media (max-width: 480px) {
+@media (max-width: 760px) {
   /*header*/
   header {
     display: inline-block;
@@ -108,8 +160,53 @@ body {
     body #fot a {
       margin-left: 3rem; } }
 
+/*ciclos*/
+.pad-1 {
+  padding: 1rem; }
+
+.pad-2 {
+  padding: 2rem; }
+
+.pad-3 {
+  padding: 3rem; }
+
+.pad-4 {
+  padding: 4rem; }
+
+.pad-5 {
+  padding: 5rem; }
+
+.marg-1 {
+  margin: 1rem; }
+
+.marg-2 {
+  margin: 2rem; }
+
+.marg-3 {
+  margin: 3rem; }
+
+.marg-4 {
+  margin: 4rem; }
+
+.marg-5 {
+  margin: 5rem; }
+
+.marg-6 {
+  margin: 6rem; }
+
+.marg-7 {
+  margin: 7rem; }
+
+.marg-8 {
+  margin: 8rem; }
+
+.marg-9 {
+  margin: 9rem; }
+
+.marg-10 {
+  margin: 10rem; }
+
 /* Partials */
-/*header*/
 .head {
   position: relative;
   text-align: center;
@@ -120,7 +217,6 @@ body {
     size: 3.5rem;
     border-bottom: 1px solid black; }
 
-/*footer*/
 #fot {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -145,7 +241,6 @@ body {
     #fot .icon:hover {
       transform: scale(1.3); }
 
-/*menu*/
 /*menu*/
 .p-2 {
   font-size: medium;
@@ -218,8 +313,8 @@ body {
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 2rem 3rem;
-    margin: 1rem;
-    margin-left: 2.5rem; }
+    margin-left: 2.5rem;
+    margin: 1rem; }
 
 .img1 {
   grid-column: 7 / 13;
@@ -419,9 +514,7 @@ body {
       margin-bottom: -6px; }
   .textos h3 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
-    text-decoration: overline 2px;
     margin-bottom: -5%; }
 
 /*Animations*/

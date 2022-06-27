@@ -18,3 +18,66 @@ $menu: 3rem ;
 $article:2rem; 
 $size-fot: 1.5rem; 
 
+/*mapas*/
+
+$colors:(
+    blue: blue,
+    red: red,
+    white: white,
+    green: green 
+);
+
+@each $var, $val in $colors {
+    .#{$var}{
+        background-color: #{$val};
+    }
+    
+};
+
+$style:(
+    cur: italic,
+    sem: oblique,
+    norm: normal
+);
+@each $key, $val in $style {
+    .#{$key}{
+        font-style: #{$val}
+    }
+}
+
+
+
+$spacing:(
+    sm: 2rem,
+    lg: 3rem,
+    xl: 4rem,
+    xxl: 5rem
+);
+
+@each $key, $val in $spacing {
+    .#{$key}{
+        gap: #{$val}
+    }
+};
+
+
+$fondo:(
+    light: white,
+    dark: black,
+    live: red,
+    after: green
+);
+
+@each $key, $val in $fondo{
+    .#{$key}{
+        background-color: #{$val};
+    }
+}
+
+/*Extend´s*/
+
+.estilosh3{
+    font-family: $font-secundary;
+    text-decoration: overline 2px ;
+    color: $secundary;  
+}
