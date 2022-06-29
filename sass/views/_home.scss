@@ -60,12 +60,14 @@
             position: relative;
             margin-bottom: -6px;
         }
+ 
     }
     h3{
         @extend .estilosh3;
         text-align: center;
         font-style: oblique;
         margin-bottom: -5%;
+        
     }
 
 }
