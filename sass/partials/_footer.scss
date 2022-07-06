@@ -4,9 +4,9 @@
     font-size: small;
     color: yellow ;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: $size-fot;
-    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
  a {
         text-decoration: none;

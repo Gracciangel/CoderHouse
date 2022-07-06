@@ -1,13 +1,20 @@
 
     .head{
+        display: flex;
         position: relative;
         text-align: center;
         margin: 3rem auto;
         h1{
+            margin-top: 76px;
             font-size: $font-principal;
             color: $secundary; 
             size: $title;
-            border-bottom: 1px solid black;
+          
        
         }
+        img{
+            width: 130px;
+            height: 130px;
+        }
     }
+

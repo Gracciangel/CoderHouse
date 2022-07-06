@@ -72,26 +72,14 @@
                         .aside__parrafo{
                             padding: 2rem 1.5rem;
                         }
-                    }
-                    /*colorimetria*/
-                    body .grid{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        max-width: 100%;
-                        img{
-                            width: 300px;
-                            height: 300px;
-                
-                        }
-                    
+                    }    
                         .art__parrafo1{
                             margin:1rem;
                         }
                         .art__parrafo2{
                             margin:1rem;
                         }
-                    }
+                    
                         /*informacion*/
                         body{
                             #info{
@@ -127,7 +115,6 @@
                         /*footer*/
                     body #fot{
                         display: flex;
-                        align-items: flex-start;
                         span{
                             margin-left: 3rem;
                         }
@@ -137,3 +124,17 @@
                     }
                 
 
+@media (max-width: 760px){
+    body { .grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        img{
+            width: 300px;
+            height: 300px;
+
+        }
+    }
+    }
+}
