@@ -1,47 +1,63 @@
-#info {
-    .subtitulo{
-        text-align: center;
-        font-size: x-large;
+#info{
+   @include flex (row-reverse , 1rem , none , center  );
+       .info{
 
-    }
-    .info{
-        @include flex(column , center , 2rem , none) ;
-        p{
-            .definirte{
-                color: rebeccapurple;
-              
-            }
-            color: $secundary ;
-            margin: 3% auto;
-            font-family: $font-principal;
-            font-style: italic;
+        .info__jav{
+            color: #FFCD00 ;
+            font-style: oblique;
+            font-family: cursive;
+            font-size: x-large;
+            text-align: center;
+        }
+        .info__parrafo{
+            color: black; 
+            margin: 1rem 5%;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: large;
-
-        }
-
-        img{
-           margin-left: 18%;
-            margin:3.5rem auto ;
-            width: 800px;
-            height: 600px;
-            background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 20px );
--webkit-backdrop-filter: blur( 20px );
-border-radius: 10px;
-        }
-    }
-    h3{
-        text-decoration: underline;
-    }
-    .lista{
-        margin: .3rem 40%;
-        .lista__item{
-            font-size: medium;
-            margin-bottom: .5rem;
-            font-family: $font-alternative;
-        }
-    }
-
-}
+            line-clamp: 2rem;
     
+        }
+             
+    } 
+    .modelo-asesora{
+        margin-left: 18%;
+         margin:3.5rem auto ;
+         width: 400px;
+         height: 400px;
+         background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+     }
+}
+
+/*queries*/
+
+@media (max-width: 760px){
+    #info{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        margin-top: 5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

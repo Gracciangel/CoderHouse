@@ -9,7 +9,7 @@ $primary: white ;
 $secundary: black ; 
 $alternative: yellow; 
 $back: rgba(128, 128, 128, 0.514) ;
-
+$primario: #FFCD00;
 /* Size */
 
 $title: 3.5rem; 
@@ -21,10 +21,10 @@ $size-fot: 1.5rem;
 /*mapas*/
 
 $colors:(
-    blue: blue,
-    red: red,
-    white: white,
-    green: green 
+    b: blue,
+    r: red,
+    w: white,
+    g: green 
 );
 
 @each $var, $val in $colors {
@@ -80,4 +80,17 @@ $fondo:(
     font-family: $font-secundary;
     text-decoration: overline 2px ;
     color: $secundary;  
+}
+.textCenter{
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(120, 69, 168, 0.301);
+    padding: 2rem;
+}
+.button{
+    padding: 1rem;
+    text-align: center;
+    background-color: #FF7767;
+    color: whitesmoke;
+    border: none;
 }

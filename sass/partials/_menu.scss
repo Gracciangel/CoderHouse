@@ -1,16 +1,24 @@
 /*menu*/
-
-
+    .navbar{
+        z-index: 3;
+    }
     .p-2{
         font-size: medium;
         color:black;
-        transition: .8s;
+        transition: .4s;
         margin:.5rem;
         padding: .5rem;
         &:hover{
             color: yellow;
-            background-color:black;
-            border-radius: 30px;
+            background-color:rgba(0, 0, 0, 0.418);
+            transform: scale(1.2);
         }
     }
-    
+
+    /*queries*/
+
+    @media (max-width: 760px){
+        .navbar{margin: auto .5%;
+        }
+        
+    }    

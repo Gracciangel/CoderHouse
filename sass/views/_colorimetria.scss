@@ -68,3 +68,17 @@
         transform: scale(1.3);
     }
   }
+
+  /*queries*/
+
+  
+@media (max-width: 760px){
+ 
+  .grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% ;
+  }
+ 
+}
