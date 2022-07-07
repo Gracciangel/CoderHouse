@@ -9,8 +9,10 @@ html{
     color: white ;
 }
 body{
-    background-color: white ;
-    width: 1200px;
+    background-image: url(../IMG/fondoDorado.svg);
+    background-size: cover;
+    max-width: 1200px;
     margin: 0 auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+

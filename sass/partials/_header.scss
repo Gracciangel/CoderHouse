@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
     .head{
         display: flex;
@@ -11,10 +12,55 @@
             size: $title;
           
        
+=======
+.head{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 7rem;
+    h1{
+        font-family:principal ;
+        font-size: xx-large;
+        text-align: center;
+    }
+    a{
+        .logo{
+            width: 250px;
+            height: 250px;
+>>>>>>> master
         }
         img{
             width: 130px;
             height: 130px;
         }
     }
+<<<<<<< HEAD
 
+=======
+    .shop{
+        display: block;
+        margin: auto 50% ;
+        img{
+            width: 50px;
+            height: 50px;
+            opacity: 60%; 
+            transition: .2s;
+        }
+        &:hover{
+            opacity: 99%;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+@media (max-width: 760px){
+   .head{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+   }
+}
+>>>>>>> master
